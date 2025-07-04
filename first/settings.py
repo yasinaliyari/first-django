@@ -1,3 +1,5 @@
+from .local_settins import *
+
 """
 Django settings for first project.
 
@@ -37,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'blog.apps.BlogConfig',
-    'catalogue.apps.CatalogueConfig'
+    'catalogue.apps.CatalogueConfig',
 ]
 
 MIDDLEWARE = [
